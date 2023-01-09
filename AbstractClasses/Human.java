@@ -1,4 +1,6 @@
-
+package AbstractClasses;
+import Classes.*;
+import Enums.Conditions;
 public abstract class Human {
     private String name;
     private Conditions condition;

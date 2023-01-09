@@ -1,3 +1,8 @@
+package Classes;
+
+import AbstractClasses.Human;
+import Classes.Place;
+
 public class PlaceController {
     public static void addHuman(Place place, Human human){
         place.getHumanList()[place.getHumanCounter()] = human;

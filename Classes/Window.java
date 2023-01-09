@@ -1,4 +1,11 @@
-public class Window implements Interactive{
+package Classes;
+
+import AbstractClasses.Human;
+import Classes.Place;
+import Interfaces.*;
+import Enums.Conditions;
+
+public class Window implements Interactive {
     private Place viewOn;
     public Window(Place plc){
         this.viewOn = plc;
@@ -12,8 +19,8 @@ public class Window implements Interactive{
                 list[i].setCondition(Conditions.SCARED);
             }
         }
-        if (human instanceof dropAble){
-            dropAble human_drop = (dropAble) human;
+        if (human instanceof DropAble){
+            DropAble human_drop = (DropAble) human;
             human_drop.dropThing(viewOn);
         }
     }

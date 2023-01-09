@@ -1,3 +1,5 @@
+import Classes.*;
+
 public class Main {
     public static void main(String[] args) {
         Place street = new Place("улица");
@@ -14,5 +16,6 @@ public class Main {
         boy.runTo(flat);
         carl.setThing(new Bag("мешок"));
         flat.interactiveObj.interaction(carl);
+
     }
 }

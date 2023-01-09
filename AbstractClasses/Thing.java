@@ -1,3 +1,4 @@
+package AbstractClasses;
 
 public abstract class Thing {
     private String name;

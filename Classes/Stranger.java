@@ -1,4 +1,9 @@
-public class Stranger extends Human{
+package Classes;
+
+import AbstractClasses.Human;
+import Classes.Place;
+
+public class Stranger extends Human {
     public Stranger(String name, Place place){
         super(name, place);
     }

@@ -1,3 +1,5 @@
+package Enums;
+
 public enum Conditions {
     ANGRY("злится"), CALM("спокоен"), SCARED("наполняется дурными предчувствиями");
     private String name;

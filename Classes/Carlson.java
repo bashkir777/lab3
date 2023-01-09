@@ -1,4 +1,10 @@
-public class Carlson extends Human implements dropAble{
+package Classes;
+
+import AbstractClasses.Human;
+import Interfaces.DropAble;
+import Enums.Conditions;
+
+public class Carlson extends Human implements DropAble {
     public Carlson(String name, Place place){
         super(name, place);
     }

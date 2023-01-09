@@ -1,3 +1,8 @@
+package Classes;
+
+import AbstractClasses.Human;
+import Interfaces.Interactive;
+
 public class Place {
     private String name;
     private Human[] HumanList = new Human[3];

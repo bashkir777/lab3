@@ -1,4 +1,8 @@
-public class LittleBoy extends Human{
+package Classes;
+
+import AbstractClasses.Human;
+
+public class LittleBoy extends Human {
     public LittleBoy(String name, Place place) {
         super(name, place);
     }

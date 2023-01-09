@@ -1,4 +1,8 @@
-public class Bag extends Thing{
+package Classes;
+
+import AbstractClasses.Thing;
+
+public class Bag extends Thing {
     public Bag(String name){
         super(name);
     }
